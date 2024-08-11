@@ -1,0 +1,137 @@
+#navbarNav ul li a{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand{
+    color: wheat;
+}
+#navbarNav ul li a:hover,
+.active{
+    border-bottom: 2px solid greenyellow;
+    border-top: 2px solid greenyellow;
+}
+.profile-pic{
+    min-height: 50vh;
+    background:#f5f5f1;
+}
+#pic{
+    height: 200px;
+    width: 190px;
+    border-radius: 52%;
+    border: 2px solid gray;
+}
+.sk ul li{
+    display: inline;
+}
+body{
+    background-attachment: fixed;
+}
+*{
+    margin: 0px;
+}
+
+.progress {
+    position: relative;
+	height: 10px;
+    margin-bottom: 2%;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 400;
+	padding: 0px 10% 0px 10px;
+	color:white;
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 400;
+	padding: 0px 10px 0px;
+    font-size: 9px;
+}
+.html{
+    background-color: red;
+}
+.net{
+    background-color: green;
+}
+.css{
+    background-color: tan;
+}
+.js{
+    background-color: steelblue;
+}
+.jq{
+    background-color: blueviolet;
+}
+.mysql{
+    background-color: teal;
+}
+.circle {
+    width: 100px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .circle canvas {
+    vertical-align: top;
+    width: 100px !important;
+  }
+  
+  .circle strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;    
+  }
+  
+  .circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+  }
+  .cr{
+    border: 1px solid black; box-shadow: 0px 4px 10px 4px rgb(240, 237, 237);
+  }
+  .cr:hover,
+  .active{
+    box-shadow: 0px 5px 5px 2px grey;
+  }
+  .proj{
+   text-align: center;
+   justify-content: center;
+   min-height: 40vh;
+   width: 80%;
+   border: 4px solid black;
+   border-radius: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   box-shadow: 0px 5px 5px 5px rgb(221, 217, 217);
+   margin-top: 3%;
+  }
+ button:hover,
+ button{
+    border: 2px solid black;
+ }
+ .so ul li {
+    display:inline ;
+    font-size: 30px;    
+    margin-right: 40px;
+    
+ }
+ 
